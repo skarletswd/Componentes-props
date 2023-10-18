@@ -6,6 +6,16 @@ class Reloj extends Component {
         this.state = { hora: new Date() };
     }
 
+    componentDidMount() {
+        this.intervalo = setInterval(() => {
+            this.setState({ hora: new Date() })
+        }, 1000);
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.intervalo);
+    }
+ 
     render() {
         return(
             <div>
