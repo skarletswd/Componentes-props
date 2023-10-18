@@ -1,3 +1,4 @@
+import Padre from "./Padre";
 import Reloj from "./Reloj";
 import Saludar from "./Saludar";
 
@@ -8,6 +9,8 @@ function App () {
         {/* <Saludar nombre= "Juan" datos={{uno: 1, dos: 2}}/> */}
         {/* <Saludar nombre= "Maria"/> */}
         {/* <Reloj /> */}
+        
+        <Padre />
     </>
     );
 }
