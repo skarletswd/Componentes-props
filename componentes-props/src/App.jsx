@@ -9,8 +9,10 @@ function App () {
         {/* <Saludar nombre= "Juan" datos={{uno: 1, dos: 2}}/> */}
         {/* <Saludar nombre= "Maria"/> */}
         {/* <Reloj /> */}
-        
-        <Padre />
+
+        {/* <Padre /> */}
+
+        <Saludar nombre= "Maria"/>
     </>
     );
 }
