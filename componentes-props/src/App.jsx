@@ -12,7 +12,7 @@ function App () {
 
         {/* <Padre /> */}
 
-        <Saludar nombre= "Maria"/>
+        <Saludar nombre={1}/>
     </>
     );
 }
