@@ -6,7 +6,7 @@ function Saludar (props) {
 }
 
 Saludar.propTypes = {
-    nombre: PropTypes.string,
+    nombre: PropTypes.string.isRequired,
 }; 
 
 export default Saludar;
