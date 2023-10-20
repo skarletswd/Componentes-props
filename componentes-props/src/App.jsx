@@ -16,14 +16,14 @@ function App () {
         {/* <Saludar nombre= "Maria"/> */}
         {/* <Reloj /> */}
 
-        {/* <Padre /> */}
+        <Padre />
 
         {/* <Saludar nombre={1}/> */}
         {/* <Saludar /> */}
         
-        <Lista elementos={lista1}/>
+        {/* <Lista elementos={lista1}/> */}
 
-        <Lista elementos={dias}/>
+        {/* <Lista elementos={dias}/> */}
     </>
     );
 }

@@ -1,5 +1,5 @@
 function Hijo(props) {
-    return <div>Desde el Hijo {props.name}</div>;
+    return <div onClick={props.onClick}>Desde el Hijo {props.name}</div>;
 }
 
 export default Hijo;
